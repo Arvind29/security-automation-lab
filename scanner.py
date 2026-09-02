@@ -7,3 +7,7 @@ def check_ioc(ioc):
 
 if __name__ == "__main__":
     print(check_ioc("8.8.8.8"))
+
+import subprocess
+
+subprocess.call("ls", shell=True)
