@@ -1,6 +1,7 @@
 def check_ioc(ioc):
     return {
         "ioc": ioc,
+        "type":"ip",
         "status": "checked"
     }
 
